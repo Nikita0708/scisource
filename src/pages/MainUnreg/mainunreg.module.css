@@ -1,0 +1,7 @@
+.textarea {
+    resize: none;
+}
+.hero_svg {
+    position: absolute;
+    z-index: -1;
+}
