@@ -1,7 +1,7 @@
 import React from "react";
-import s from "./projectapply.module.css";
+// import s from "./projectapply.module.css";
 const ProjectApply = () => {
-  return <div>ProjectApply</div>;
+    return <div>ProjectApply</div>;
 };
 
 export default ProjectApply;

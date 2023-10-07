@@ -1,5 +1,5 @@
-import PrivateRoute from "../components/PrivateRoute";
-import RestrictedRoute from "../components/RestrictedRoute";
+// import PrivateRoute from "../components/PrivateRoute";
+// import RestrictedRoute from "../components/RestrictedRoute";
 import AddProjectVacancy from "../pages/AddProjectVacancy/AddProjectVacancy";
 import Chat from "../pages/Chat/Chat";
 import CreateProject from "../pages/CreateProject/CreateProject";
@@ -24,48 +24,48 @@ export const ADD_PROJECT_VACANCY = "/addvacancy";
 export const PROFILE_EDIT = "/editprofile";
 
 export const AppRoutes = [
-  {
-    path: MAIN_UNREG,
-    element: <MainUnreg />,
-  },
-  {
-    path: MAIN_REG,
-    element: <MainReg />,
-  },
-  {
-    path: PROJECT_APPLY,
-    element: <ProjectApply />,
-  },
-  {
-    path: CREATE_PROJECT,
-    element: <CreateProject />,
-  },
-  {
-    path: PROJECT_EDIT,
-    element: <ProjectEdit />,
-  },
-  {
-    path: PROJECT_RESPONSES,
-    element: <ProjectResponses />,
-  },
-  {
-    path: USER_PROFILE,
-    element: <UserProfile />,
-  },
-  {
-    path: PROFILE_EDIT,
-    element: <ProfileEdit />,
-  },
-  {
-    path: LOG_IN,
-    element: <UserProfile />,
-  },
-  {
-    path: CHAT,
-    element: <Chat />,
-  },
-  {
-    path: ADD_PROJECT_VACANCY,
-    element: <AddProjectVacancy />,
-  },
+    {
+        path: MAIN_UNREG,
+        element: <MainUnreg />,
+    },
+    {
+        path: MAIN_REG,
+        element: <MainReg />,
+    },
+    {
+        path: PROJECT_APPLY,
+        element: <ProjectApply />,
+    },
+    {
+        path: CREATE_PROJECT,
+        element: <CreateProject />,
+    },
+    {
+        path: PROJECT_EDIT,
+        element: <ProjectEdit />,
+    },
+    {
+        path: PROJECT_RESPONSES,
+        element: <ProjectResponses />,
+    },
+    {
+        path: USER_PROFILE,
+        element: <UserProfile />,
+    },
+    {
+        path: PROFILE_EDIT,
+        element: <ProfileEdit />,
+    },
+    {
+        path: LOG_IN,
+        element: <UserProfile />,
+    },
+    {
+        path: CHAT,
+        element: <Chat />,
+    },
+    {
+        path: ADD_PROJECT_VACANCY,
+        element: <AddProjectVacancy />,
+    },
 ];
