@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/scisource/static/css/main.d2b6fefc.css",
+    "main.js": "/scisource/static/js/main.457bbf69.js",
+    "static/media/sprite.svg": "/scisource/static/media/sprite.eaac1f3a4c12f42a1384d261eb287999.svg",
+    "index.html": "/scisource/index.html",
+    "main.d2b6fefc.css.map": "/scisource/static/css/main.d2b6fefc.css.map",
+    "main.457bbf69.js.map": "/scisource/static/js/main.457bbf69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2b6fefc.css",
+    "static/js/main.457bbf69.js"
+  ]
+}
