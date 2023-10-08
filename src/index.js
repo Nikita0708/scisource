@@ -8,7 +8,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <BrowserRouter basename="nikita0708.github.io/scisource">
+        <BrowserRouter basename="/scisource">
             <App />
         </BrowserRouter>
     </React.StrictMode>
