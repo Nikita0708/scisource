@@ -3,6 +3,8 @@ import s from "./createproject.module.css";
 import svg from "../../img/sprite.svg";
 import HeaderReg from "../../components/HeaderReg/HeaderReg";
 import Footer from "../../components/Footer/Footer";
+import { Link } from "react-router-dom";
+import { MAIN_REG } from "../../routes/routes";
 
 const CreateProject = () => {
     return (
@@ -70,9 +72,9 @@ const CreateProject = () => {
                                     placeholder="Enter description of the project "
                                 />
                             </label>
-                            <button type="submit" className={s.submit}>
-                                Publish
-                            </button>
+                            <Link to={MAIN_REG}>
+                                <button className={s.submit}>Publish</button>
+                            </Link>
                         </form>
                     </div>
                 </div>
