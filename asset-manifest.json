@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/scisource/static/css/main.d2b6fefc.css",
-    "main.js": "/scisource/static/js/main.6bd87e88.js",
-    "static/media/sprite.svg": "/scisource/static/media/sprite.eaac1f3a4c12f42a1384d261eb287999.svg",
+    "main.css": "/scisource/static/css/main.52e8c6ad.css",
+    "main.js": "/scisource/static/js/main.f151e4d1.js",
+    "static/media/sprite.svg": "/scisource/static/media/sprite.fe1e855bf20af69014ef74b0fb3d08a8.svg",
+    "static/media/sphere.png": "/scisource/static/media/sphere.f93052e56a4e323a4745.png",
+    "static/media/profile.svg": "/scisource/static/media/profile.0e39e03783bdab4f0c35c70614bc39dc.svg",
+    "static/media/post.svg": "/scisource/static/media/post.23aeb065aef3408fc7e9bcf4eaa48420.svg",
+    "static/media/icon-search.svg": "/scisource/static/media/icon-search.1c3d0c2ec7f4016af5494b687ee2771d.svg",
+    "static/media/attach.svg": "/scisource/static/media/attach.e5b3bf927532280bc5179dfffd227985.svg",
     "index.html": "/scisource/index.html",
-    "main.d2b6fefc.css.map": "/scisource/static/css/main.d2b6fefc.css.map",
-    "main.6bd87e88.js.map": "/scisource/static/js/main.6bd87e88.js.map"
+    "static/media/send.svg": "/scisource/static/media/send.4825a3717982c972c0e87cdcb92b063f.svg",
+    "main.52e8c6ad.css.map": "/scisource/static/css/main.52e8c6ad.css.map",
+    "main.f151e4d1.js.map": "/scisource/static/js/main.f151e4d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2b6fefc.css",
-    "static/js/main.6bd87e88.js"
+    "static/css/main.52e8c6ad.css",
+    "static/js/main.f151e4d1.js"
   ]
 }
