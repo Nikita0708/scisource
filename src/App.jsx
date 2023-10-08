@@ -6,10 +6,10 @@ import MainReg from "./pages/MainReg/MainReg";
 const App = () => {
     return (
         <Routes>
+            <Route path="*" element={<MainReg />} />
             {AppRoutes.map(({ path, element }) => (
                 <Route path={path} element={element} key={path} />
             ))}
-            <Route path="*" element={<MainReg />} />
         </Routes>
     );
 };
