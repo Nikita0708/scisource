@@ -1,16 +1,10 @@
 import React from "react";
 import s from "./userprofile.module.css";
-import { Link } from "react-router-dom";
 import svg from "../../img/sprite.svg";
 import HeaderReg from "../../components/HeaderReg/HeaderReg";
 import Footer from "../../components/Footer/Footer";
 
-const UserProfile = ({
-    userName,
-    userSkills,
-    userOccupation,
-    userLinkedIn,
-}) => {
+const UserProfile = () => {
     return (
         <>
             <HeaderReg />
