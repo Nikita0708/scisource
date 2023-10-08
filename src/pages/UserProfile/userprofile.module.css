@@ -1,0 +1,124 @@
+.left_list {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 72px;
+    background-color: #deebf3;
+    border-radius: 15px;
+    width: 305px;
+    height: 100%;
+}
+.section {
+    margin-bottom: 160px;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.item {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.item_link {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.item {
+    border-bottom: 1px solid #000000;
+}
+.item:last-child {
+    border-bottom: none;
+}
+
+.section_wrapper {
+    background-color: #deebf3;
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 60px;
+    width: 658px;
+}
+.basic_wrapper {
+    display: flex;
+}
+.basic_right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 33px;
+    margin-left: 33px;
+    border-left: 1px solid #000000;
+}
+.basic_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.basic_title {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 43.2px */
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.span {
+    color: #000;
+
+    /* F6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+    margin-bottom: 8px;
+}
+.user_data {
+    color: #333;
+    /* F4 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.name_wrap {
+    display: flex;
+    gap: 86px;
+}
+.about_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.exp_title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.time_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.files_title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.links_title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.files_wrap {
+    display: flex;
+    flex-direction: column;
+}
+.files_svg {
+    margin-bottom: 10px;
+}

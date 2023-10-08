@@ -3,11 +3,13 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #f9f9f9;
+    background-color: #6db3ed;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 button {
     cursor: pointer;
 }

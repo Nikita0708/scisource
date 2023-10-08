@@ -2,6 +2,8 @@ import React from "react";
 import s from "./mainunreg.module.css";
 import { Link } from "react-router-dom";
 import svg from "../../img/sprite.svg";
+import { MAIN_REG, MAIN_UNREG } from "../../routes/routes";
+import Footer from "../../components/Footer/Footer";
 
 const MainUnreg = () => {
     return (
@@ -9,12 +11,18 @@ const MainUnreg = () => {
             <section className={s.header_hero}>
                 <div className={s.container}>
                     <div className={s.header}>
-                        <Link className={s.logo_link}>
+                        <Link to={MAIN_UNREG} className={s.logo_link}>
                             <svg className={s.logo_svg} width={162} height={38}>
                                 <use href={svg + "#icon-logo"}></use>
                             </svg>
                         </Link>
-                        <Link className={s.login_link}>Log in</Link>
+                        <Link
+                            to={MAIN_REG}
+                            type="button"
+                            className={s.login_link}
+                        >
+                            Log in
+                        </Link>
                     </div>
                     <h1 className={s.hero_title}>
                         Market-place for your projects
@@ -23,18 +31,47 @@ const MainUnreg = () => {
                         Share - connect - create!
                     </span>
                     <div className={s.link_wrap}>
-                        <Link className={s.link_about}>About the project</Link>
-                        <Link className={s.link_contact}>Contact us</Link>
+                        <a href="#about" className={s.link_about}>
+                            About the project
+                        </a>
+                        <a href="#contact" className={s.link_contact}>
+                            Contact us
+                        </a>
                     </div>
                     <svg className={s.hero_svg} width={1024} height={576}>
                         <use href={svg + "#icon-map"}></use>
                     </svg>
                 </div>
             </section>
-            <section className={s.sbout}>
-                <div className={s.container}></div>
+            <section className={s.sbout} id="about">
+                <div className={s.container}>
+                    <ul className={s.about_list}>
+                        <li className={s.about_item}>
+                            <h2 className={s.about_title}>share</h2>
+                            <p className={s.about_text}>
+                                Share software, data, papers and knowledge.
+                            </p>
+                        </li>
+                        <li className={s.about_item}>
+                            <h2 className={s.about_title}>connect</h2>
+                            <p className={s.about_text}>
+                                For project creators - search for collaborators
+                                based on the skills and level of expertise you
+                                need. <br /> <br /> For individuals - search for
+                                projects to work on based on your interests.
+                            </p>
+                        </li>
+                        <li className={s.about_item}>
+                            <h2 className={s.about_title}>create</h2>
+                            <p className={s.about_text}>
+                                Create projects and take part in projects you
+                                are interested in!
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section className={s.contact}>
+            <section className={s.contact} id="contact">
                 <div className={s.container}>
                     <form className={s.form}>
                         <h2 className={s.contact_title}>
@@ -55,20 +92,11 @@ const MainUnreg = () => {
                         <button type="submit" className={s.btn_submit}>
                             Send
                         </button>
-                        <svg className={s.contact_svg} width={448} height={448}>
-                            <use href={svg + "#icon-sphere"}></use>
-                        </svg>
-                        <img src="" alt="" className={s.contact_img} />
                     </form>
+                    <img src={require("../../img/sphere.png")} alt="sphere" />
                 </div>
             </section>
-            <footer className={s.footer}>
-                <div className={s.container}>
-                    <span className={s.footer_text}>
-                        © 2023 NASA Space Project Marketplace
-                    </span>
-                </div>
-            </footer>
+            <Footer />
         </>
     );
 };
