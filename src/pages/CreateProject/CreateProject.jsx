@@ -73,7 +73,9 @@ const CreateProject = () => {
                                 />
                             </label>
                             <Link to={MAIN_REG}>
-                                <button className={s.submit}>Publish</button>
+                                <button type="button" className={s.submit}>
+                                    Publish
+                                </button>
                             </Link>
                         </form>
                     </div>
