@@ -1,7 +1,7 @@
 import React from "react";
 import { AppRoutes } from "./routes/routes";
 import { Route, Routes } from "react-router-dom";
-import MainUnreg from "./pages/MainUnreg/MainUnreg";
+import MainReg from "./pages/MainReg/MainReg";
 
 const App = () => {
     return (
@@ -9,7 +9,7 @@ const App = () => {
             {AppRoutes.map(({ path, element }) => (
                 <Route path={path} element={element} key={path} />
             ))}
-            <Route path="*" element={<MainUnreg />} />
+            <Route path="*" element={<MainReg />} />
         </Routes>
     );
 };

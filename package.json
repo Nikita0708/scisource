@@ -2,7 +2,7 @@
   "name": "scisource",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikita0708.github.io/scisource",
+  "homepage": "https://nikita0708.github.io/scisource/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.6",
     "@testing-library/jest-dom": "^5.17.0",
