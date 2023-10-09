@@ -5,12 +5,14 @@ import MainUnreg from "./pages/MainUnreg/MainUnreg";
 
 const App = () => {
     return (
-        <Routes>
-            <Route path="*" element={<MainUnreg />} />
-            {AppRoutes.map(({ path, element }) => (
-                <Route path={path} element={element} />
-            ))}
-        </Routes>
+        <>
+            <Routes>
+                <Route path="*" element={<MainUnreg />} />
+                {AppRoutes.map(({ path, element }) => (
+                    <Route path={path} element={element} />
+                ))}
+            </Routes>
+        </>
     );
 };
 
