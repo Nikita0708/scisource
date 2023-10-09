@@ -18,7 +18,7 @@ export const PROJECT_EDIT = "/edit";
 export const PROJECT_RESPONSES = "/responses";
 export const PROJECT_RESPONSE = "/respond";
 export const USER_PROFILE = "/profile";
-export const CHAT = "/chat/";
+export const CHAT = "/chat";
 export const PROFILE_EDIT = "/editprofile";
 export const MY_PROJECTS = "/myprojects";
 
